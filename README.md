@@ -31,7 +31,7 @@ The chatbot setup script (chatbot/app.py) showcases the creation of a conversati
 - SentenceTransformers: A library for sentence embeddings.
 - Python-Decouple: A library for handling configuration variables.
 ```bash
-pip install langchain sentence-transformers PyPDF2 python-decouple
+pip install langchain sentence-transformers PyPDF2 python-decouple chromadb streamlit
 ```
 #### Usage
 - Set up your OpenAI API key in the environment or in a .env file.
@@ -46,7 +46,7 @@ The MMR search script (retrievalTechniques/mmr.py) exemplifies LangChain's MMR c
 Make sure to install the required dependencies for each script. You can install them using:
 
 ```bash
-pip install langchain sentence-transformers PyPDF2 python-decouple
+pip install langchain sentence-transformers PyPDF2 python-decouple chromadb
 ```
 #### Usage
 - Set up your OpenAI API key in the environment or in a .env file.
