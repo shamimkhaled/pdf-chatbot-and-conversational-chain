@@ -23,7 +23,7 @@ This repository contains Python scripts showcasing the integration of various La
 - Run the script using python process_pdf.py.
 ### Rich Dad Poor Dad Chatbot Setup
 #### Code Overview
-The chatbot setup script (chatbot/app.py) showcases the creation of a conversational retrieval chain using LangChain and Streamlit. It combines SentenceTransformer embeddings, Chroma vector storage, and the ChatOpenAI model to build a chatbot capable of answering user questions about the book "Rich Dad Poor Dad."
+The chatbot setup script (chatbot/app.py) showcases the creation of a conversational retrieval chain using LangChain and Streamlit. It combines SentenceTransformer embeddings, Chroma vector storage, and the OpenAI model to build a chatbot capable of answering user questions about the book "Rich Dad Poor Dad."
 
 #### Dependencies
 - LangChain: A library for natural language processing tasks.
